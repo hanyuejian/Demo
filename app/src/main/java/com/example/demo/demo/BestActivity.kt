@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.webkit.JsPromptResult
 import android.webkit.WebChromeClient
 import android.webkit.WebView
-import com.example.demo.demo.R.id.myWeb
 import kotlinx.android.synthetic.main.activity_main.*
 
 class BestActivity : Activity() {
@@ -30,5 +29,17 @@ class BestActivity : Activity() {
 
     }
 
+    companion object Text{
+        internal fun set(){
+        }
+    }
+
+    class Test {
+        internal fun set() {}
+
+        companion object {
+            internal fun get() {}
+        }
+    }
 
 }

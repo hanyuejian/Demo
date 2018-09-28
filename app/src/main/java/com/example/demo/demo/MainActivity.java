@@ -22,4 +22,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    public static class Test{
+        static void  get(){}
+        void  set(){}
+    }
 }
