@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.webkit.JsPromptResult
 import android.webkit.WebChromeClient
 import android.webkit.WebView
+import com.example.demo.demo.R.id.myWeb
 import kotlinx.android.synthetic.main.activity_main.*
 
 class BestActivity : Activity() {
@@ -19,6 +20,13 @@ class BestActivity : Activity() {
                 return super.onJsPrompt(view, url, message, defaultValue, result)
             }
         }
+
+        /**
+         * 我是合并测试数据啊
+         */
+
+
+        myWeb.contentHeight
 
     }
 
